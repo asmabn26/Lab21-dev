@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs de base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Thème Lux Rose -->
+    <color name="lux_rose">#E91E63</color>
+    <color name="lux_rose_soft">#F8BBD0</color>
+    <color name="lux_rose_light">#FFF1F7</color>
+    <color name="lux_purple">#8E24AA</color>
+    <color name="lux_gold">#D4AF37</color>
+    <color name="lux_dark">#2B1020</color>
+    <color name="lux_text">#2D2D2D</color>
+    <color name="lux_gray">#757575</color>
+
+    <!-- Navigation Drawer : Les couleurs avec états sont définies dans res/color/ -->
+</resources>

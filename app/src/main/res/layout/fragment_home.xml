@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_lux"
+    android:padding="18dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_header_lux"
+            android:gravity="center"
+            android:letterSpacing="0.03"
+            android:padding="30dp"
+            android:text="SensorMood"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/bg_card_lux"
+            android:lineSpacingExtra="4dp"
+            android:padding="20dp"
+            android:text="Bienvenue dans une application Android Java dédiée à l’exploitation intelligente des capteurs embarqués."
+            android:textColor="#2D2D2D"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_card_lux"
+            android:lineSpacingExtra="5dp"
+            android:padding="20dp"
+            android:text="Objectifs pédagogiques :\n\n• Découvrir les capteurs disponibles\n• Lire les propriétés techniques\n• Visualiser les mesures en temps réel\n• Exploiter les capteurs de mouvement\n• Construire une boussole numérique\n• Reconnaître une activité simple"
+            android:textColor="#424242"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_card_lux"
+            android:lineSpacingExtra="5dp"
+            android:padding="20dp"
+            android:text="Capteurs intégrés :\n\nTempérature, humidité, proximité, champ magnétique, gyroscope, accéléromètre et boussole."
+            android:textColor="#424242"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_chip_lux"
+            android:gravity="center"
+            android:padding="18dp"
+            android:text="Mode démo : une simulation automatique est utilisée lorsque l’émulateur ne fournit pas de vraies valeurs."
+            android:textColor="#880E4F"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>

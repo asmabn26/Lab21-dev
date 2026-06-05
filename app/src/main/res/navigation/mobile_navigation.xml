@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ensa.ma.sensors.ui.home.HomeFragment"
+        android:label="Accueil"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_sensors"
+        android:name="ensa.ma.sensors.ui.sensors.ListSonsorsFragment"
+        android:label="Inventaire capteurs"
+        tools:layout="@layout/fragment_listsonsors_list" />
+
+    <fragment
+        android:id="@+id/nav_thermometer"
+        android:name="ensa.ma.sensors.ui.thermometer.ThermoFragment"
+        android:label="Climat thermique"
+        tools:layout="@layout/fragment_thermo" />
+
+    <fragment
+        android:id="@+id/nav_humidity"
+        android:name="ensa.ma.sensors.ui.humidity.HumidityFragment"
+        android:label="Niveau humidité"
+        tools:layout="@layout/fragment_humidity" />
+
+    <fragment
+        android:id="@+id/nav_proximity"
+        android:name="ensa.ma.sensors.ui.proximity.ProximityFragment"
+        android:label="Détection présence"
+        tools:layout="@layout/fragment_proximity" />
+
+    <fragment
+        android:id="@+id/nav_magnetic"
+        android:name="ensa.ma.sensors.ui.magnetic.MagneticFragment"
+        android:label="Champ magnétique"
+        tools:layout="@layout/fragment_magnetic" />
+
+    <fragment
+        android:id="@+id/nav_rotation"
+        android:name="ensa.ma.sensors.ui.rotation.RotationFragment"
+        android:label="Rotation mobile"
+        tools:layout="@layout/fragment_rotation" />
+
+    <fragment
+        android:id="@+id/nav_compass"
+        android:name="ensa.ma.sensors.ui.compass.CompassFragment"
+        android:label="Boussole numérique"
+        tools:layout="@layout/fragment_compass" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="ensa.ma.sensors.ui.share.ShareFragment"
+        android:label="Partager"
+        tools:layout="@layout/fragment_share" />
+
+</navigation>

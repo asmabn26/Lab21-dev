@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Accueil" />
+
+        <item
+            android:id="@+id/nav_sensors"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Inventaire capteurs" />
+
+        <item
+            android:id="@+id/nav_thermometer"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Climat thermique" />
+
+        <item
+            android:id="@+id/nav_humidity"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Niveau humidité" />
+
+        <item
+            android:id="@+id/nav_proximity"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Détection présence" />
+
+        <item
+            android:id="@+id/nav_magnetic"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="Champ magnétique" />
+
+        <item
+            android:id="@+id/nav_rotation"
+            android:icon="@android:drawable/ic_menu_rotate"
+            android:title="Rotation mobile" />
+
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Boussole numérique" />
+
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Partager" />
+        </menu>
+    </item>
+
+</menu>
